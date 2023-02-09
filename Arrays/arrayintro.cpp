@@ -18,6 +18,8 @@ int main()
          << endl;
 
     cout << "value at 15 location: " << number[15] << endl;
+    cout << "value at 10 location: " << number[10] << endl;
+    cout << "value at 43 location: " << number[43] << endl;
 
     return 0;
 }
