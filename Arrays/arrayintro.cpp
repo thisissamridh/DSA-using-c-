@@ -27,5 +27,11 @@ int main()
     cout << "value at 10 location: " << number[10] << endl;
     cout << "value at 43 location: " << number[43] << endl;
 
+    int third[15] = {2, 4, 6};
+
+    for (int i = 0; i < sizeof(third); i++)
+    {
+        cout << third[i] << " ";
+    }
     return 0;
 }
