@@ -2,6 +2,11 @@
     "files.associations": {
         "*.ejs": "html",
         "ostream": "cpp",
-        "__config": "cpp"
+        "__config": "cpp",
+        "__bit_reference": "cpp",
+        "__mutex_base": "cpp",
+        "string": "cpp",
+        "tuple": "cpp",
+        "variant": "cpp"
     }
 }
