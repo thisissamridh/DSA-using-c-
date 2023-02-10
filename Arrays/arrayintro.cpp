@@ -17,6 +17,12 @@ int main()
          << "everything is fine" << endl
          << endl;
 
+    //  initialising a second array
+    int second[3] = {5, 7, 11};
+
+    // accessing an element in the array
+    cout << "value at 2rd index: " << second[2] << endl;
+
     cout << "value at 15 location: " << number[15] << endl;
     cout << "value at 10 location: " << number[10] << endl;
     cout << "value at 43 location: " << number[43] << endl;
