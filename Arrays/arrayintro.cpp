@@ -33,5 +33,13 @@ int main()
     {
         cout << third[i] << " ";
     }
+
+    int fifth[10] = {1, 2};
+    int fifthSize = sizeof(fifth) / sizeof(int);
+
+    cout << "fith size of : " << sizeof(fifth) << endl;
+    cout << "fitfth size : " << fifthSize << endl;
+    cout << "fitfth size : " << 2 / sizeof(int) << endl;
+
     return 0;
 }
